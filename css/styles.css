@@ -1,10 +1,11 @@
 /* CSS HEX for my color pallet
 
---ming: #006d77ff;
---middle-blue-green: #83c5beff;
---alice-blue: #edf6f9ff;
---unbleached-silk: #ffddd2ff;
---dark-salmon: #e29578ff;
+--pumpkin: #fd750dff;
+--tyrian-purple: #66003aff;
+--charcoal: #323c48ff;
+--light-gray: #ceccccff;
+--ivory: #fffff2ff;
+--tyrian-purple:rgba(102, 0, 58, 1)
 */
 
 
@@ -12,11 +13,20 @@
 ---------------------- */
 
 body {
-    color: #FFDDD2FF;
+    background-color: #fffff2ff;
+    color: #323c48ff;
 }
 
 img {
     width: 300px;
+}
+
+a {
+    color: #fd750dff
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 
@@ -24,16 +34,39 @@ img {
 ---------------------- */
 
 header {
-    background-color: #E29578FF;
+    background-color: #66003aff;
+    color: #fffff2ff;
 }
 
 
 /* Projects 
 ---------------------- */
 
+.projects {
+    background-color: #ceccccff;
+}
+
+.projects a {}
+
+.projects .btn {
+    color: #fffff2ff;
+    background: #66003aff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(102, 0, 58, 70%);
+}
+
 
 /* Work Experience
 ---------------------- */
+
+.work-experience {
+    background-color: #fd750dff;
+}
 
 
 /* Education
@@ -42,3 +75,8 @@ header {
 
 /* Contact Info
 ---------------------- */
+
+footer {
+    background: #323c48ff;
+    color: #fffff2ff;
+}
