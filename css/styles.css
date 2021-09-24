@@ -1,3 +1,44 @@
+/* CSS HEX for my color pallet
+
+--ming: #006d77ff;
+--middle-blue-green: #83c5beff;
+--alice-blue: #edf6f9ff;
+--unbleached-silk: #ffddd2ff;
+--dark-salmon: #e29578ff;
+*/
+
+
+/* Global Styles
+---------------------- */
+
+body {
+    color: #FFDDD2FF;
+}
+
 img {
     width: 300px;
 }
+
+
+/* Profile 
+---------------------- */
+
+header {
+    background-color: #E29578FF;
+}
+
+
+/* Projects 
+---------------------- */
+
+
+/* Work Experience
+---------------------- */
+
+
+/* Education
+---------------------- */
+
+
+/* Contact Info
+---------------------- */
