@@ -73,6 +73,7 @@ h2 {
 header {
     background-color: #66003aff;
     color: #fffff2ff;
+    text-align: center;
 }
 
 
@@ -121,6 +122,12 @@ header {
     background-color: #fd750dff;
 }
 
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
 
 /* Education
 ---------------------- */
@@ -132,4 +139,17 @@ header {
 footer {
     background: #323c48ff;
     color: #fffff2ff;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
