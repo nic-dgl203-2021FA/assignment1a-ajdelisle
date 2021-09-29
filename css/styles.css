@@ -98,6 +98,21 @@ header {
     background: rgba(102, 0, 58, 70%);
 }
 
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #66003aff;
+    padding: 25px 0;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
 
 /* Work Experience
 ---------------------- */
