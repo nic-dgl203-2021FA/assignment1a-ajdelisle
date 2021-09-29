@@ -12,6 +12,16 @@
 /* Global Styles
 ---------------------- */
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #fffff2ff;
     color: #323c48ff;
