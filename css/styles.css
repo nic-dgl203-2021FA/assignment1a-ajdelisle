@@ -33,7 +33,7 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 400px;
 }
 
 a {
@@ -54,10 +54,15 @@ h2 {
 }
 
 h1,
-h2 {
+h2,
+h4 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
+}
+
+h4 {
+    font-size: large;
 }
 
 .content-wrap {
@@ -130,6 +135,7 @@ header {
 
 .project-item h3 {
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 
