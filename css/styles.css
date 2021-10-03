@@ -85,7 +85,7 @@ h3~p {
 }
 
 .divider>section {
-    border-bottom: 1px dashed #66003aff;
+    border-bottom: 2px dashed #fd750dff;
     padding: 25px 0;
 }
 
@@ -143,7 +143,11 @@ header {
 ---------------------- */
 
 .work-experience {
-    background-color: #fd750dff;
+    background-color: #323c48ff;
+}
+
+.work-experience {
+    color: #ceccccff;
 }
 
 
