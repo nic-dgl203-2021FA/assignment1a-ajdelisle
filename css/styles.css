@@ -1,4 +1,4 @@
-    /* CSS HEX for my color pallet
+/* CSS HEX for my color pallet
 
 --pumpkin: #fd750dff;
 --tyrian-purple: #66003aff;
@@ -8,355 +8,369 @@
 --ivory: #fffff2ff;
 --tyrian-purple:rgba(102, 0, 58, 1)
 */
-    /* Global Styles
+
+
+/* Global Styles
 ---------------------- */
-    
-    html {
-        box-sizing: border-box;
-    }
-    
-    *,
-    *:before,
-    *:after {
-        box-sizing: inherit;
-    }
-    
-    body {
-        background-color: #fffff2ff;
-        color: #323c48ff;
-        margin: 0;
-        padding: 0;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-        line-height: 1.5;
-    }
-    
-    img {
-        width: 350px;
-    }
-    
-    #navicon img {
-        width: 30px
-    }
-    
-    a {
-        color: #fd750dff
-    }
-    
-    a:hover {
-        text-decoration: none;
-    }
-    
-    h1 {
-        font-size: 100px;
-        line-height: 1;
-    }
-    
-    h2 {
-        font-size: 45px;
-    }
-    
-    h1,
-    h2,
-    h4 {
-        font-family: 'Caveat', cursive;
-        font-weight: 400;
-        margin: 0;
-    }
-    
-    h4 {
-        font-size: large;
-    }
-    
-    .content-wrap {
-        max-width: 800px;
-        width: 85%;
-        margin: 0 auto;
-        padding: 60px 0;
-    }
-    
-    h3 {
-        margin-bottom: 0;
-    }
-    
-    .item-details h3+p {
-        font-style: italic;
-    }
-    
-    h3~p {
-        margin: 0;
-    }
-    
-    .divider>section {
-        border-bottom: 2px dashed #fd750dff;
-        padding: 25px 0;
-    }
-    
-    .divider>section:last-of-type {
-        border: none;
-    }
-    
-    .content-wrap>h2 {
-        margin-top: 30px;
-    }
-    /* Navigation
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fffff2ff;
+    color: #323c48ff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    width: 350px;
+}
+
+#navicon img {
+    width: 30px
+}
+
+a {
+    color: #fd750dff
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h4 {
+    font-size: large;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.item-details h3+p {
+    font-style: italic;
+}
+
+h3~p {
+    margin: 0;
+}
+
+.divider>section {
+    border-bottom: 2px dashed #fd750dff;
+    padding: 25px 0;
+}
+
+.divider>section:last-of-type {
+    border: none;
+}
+
+.content-wrap>h2 {
+    margin-top: 30px;
+}
+
+
+/* Navigation
         https://medium.com/@pacific880/learn-to-make-one-page-scroll-navigation-b97ab42ef6fa
         referenced this css and html code for my nav bar.
     ---------------------- */
-    
-    nav {
-        top: 0;
-        width: 100%;
-        position: fixed;
-        background-color: rgba(23, 17, 17, .85);
-    }
-    
+
+nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(23, 17, 17, .85);
+}
+
+.navbar {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    padding: 12px;
+    color: #fffff2ff;
+}
+
+.navbar ul li a:active {
+    color: #ceccccff;
+}
+
+.navbar ul li a {
+    margin: 8px;
+    padding: 8px;
+    color: #fd750dff;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 0.6s ease-out;
+}
+
+
+/* Profile 
+---------------------- */
+
+header {
+    background-color: #66003aff;
+    color: #fffff2ff;
+}
+
+header h1 {
+    padding-top: 50px;
+}
+
+
+/* Projects 
+---------------------- */
+
+.projects {
+    background-color: #ceccccff;
+}
+
+.projects a {
+    color: #323c48ff;
+}
+
+.projects .btn {
+    color: #fffff2ff;
+    background: #66003aff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .btn:hover {
+    background: rgba(102, 0, 58, 70%);
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #66003aff;
+    padding: 25px 0;
+}
+
+.project-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/* Work Experience
+---------------------- */
+
+.work-experience {
+    background-color: #323c48ff;
+}
+
+.work-experience {
+    color: #ceccccff;
+}
+
+
+/* Education
+---------------------- */
+
+.education {
+    background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p {
+    width: 60%;
+}
+
+
+/* Contact Info
+---------------------- */
+
+footer {
+    background: #323c48ff;
+    color: #fffff2ff;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
+/* Modal Box
+---------------------- */
+
+
+/* could not get this to work properly
+
+.modal-window {
+    position: fixed;
+    background-color: #ceccccff;
+    top: 30;
+    left: 40;
+    z-index: 11;
+}
+
+.modal-window>div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+}
+
+.modal-window header {
+    font-weight: bold;
+}
+
+.modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+}
+
+.modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+}
+
+*/
+
+
+/* model button styles 
+---------------------- */
+
+.modal-window {
+    border-radius: 1rem;
+}
+
+.mbtn {
+    background-color: #fd750dff;
+    padding: 1em 1.5em;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    left: 20px;
+    top: 50px;
+}
+
+
+/* Responsive
+---------------------- */
+
+@media screen and (min-width:750px) {
+    header,
+    footer,
     .navbar {
-        padding: 10px;
-        margin: 0 auto;
-    }
-    
-    .navbar ul li {
-        list-style: none;
-        margin: 0 10px;
-        display: inline-block;
-    }
-    
-    .navbar ul li a:hover {
-        padding: 12px;
-        color: #fffff2ff;
-    }
-    
-    .navbar ul li a:active {
-        color: #ceccccff;
-    }
-    
-    .navbar ul li a {
-        margin: 8px;
-        padding: 8px;
-        color: #fd750dff;
-        font-size: 1.2em;
-        text-decoration: none;
-        transition: all 0.6s ease-out;
-    }
-    /* Profile 
----------------------- */
-    
-    header {
-        background-color: #66003aff;
-        color: #fffff2ff;
-    }
-    
-    header h1 {
-        padding-top: 50px;
-    }
-    /* Projects 
----------------------- */
-    
-    .projects {
-        background-color: #ceccccff;
-    }
-    
-    .projects a {
-        color: #323c48ff;
-    }
-    
-    .projects .btn {
-        color: #fffff2ff;
-        background: #66003aff;
-        text-decoration: none;
-        padding: 8px;
-        border-radius: 4px;
-        display: inline-block;
-    }
-    
-    .projects .btn:hover {
-        background: rgba(102, 0, 58, 70%);
-    }
-    
-    .project-item {
-        overflow: hidden;
-        border-bottom: 1px dashed #66003aff;
-        padding: 25px 0;
-    }
-    
-    .project-item h3 {
-        margin-top: 0;
-        margin-bottom: 10px;
-    }
-    /* Work Experience
----------------------- */
-    
-    .work-experience {
-        background-color: #323c48ff;
-    }
-    
-    .work-experience {
-        color: #ceccccff;
-    }
-    /* Education
----------------------- */
-    
-    .education {
-        background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
-        background-size: cover;
-        background-position: top right;
-        padding-bottom: 100px;
-    }
-    
-    .education p {
-        width: 60%;
-    }
-    /* Contact Info
----------------------- */
-    
-    footer {
-        background: #323c48ff;
-        color: #fffff2ff;
-    }
-    
-    .contact-list {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    .contact-list a {
-        padding: 15px;
-        display: inline-block;
-    }
-    /* Modal Box
----------------------- */
-    
-    .modal-window {
-        position: fixed;
-        background-color: rgba(255, 255, 255, 0.25);
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 999;
-        visibility: hidden;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.3s;
-        &:target {
-            visibility: visible;
-            opacity: 1;
-            pointer-events: auto;
-        }
-        &>div {
-            width: 400px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 2em;
-            background: white;
-        }
-        header {
-            font-weight: bold;
-        }
-        h1 {
-            font-size: 150%;
-            margin: 0 0 15px;
-        }
-    }
-    
-    .modal-close {
-        color: #aaa;
-        line-height: 50px;
-        font-size: 80%;
-        position: absolute;
-        right: 0;
         text-align: center;
-        top: 0;
-        width: 70px;
-        text-decoration: none;
-        &:hover {
-            color: black;
-        }
     }
-    /* model button styles 
----------------------- */
-    
-    .modal-window {
-        border-radius: 1rem;
+    a#navicon {
+        display: none;
     }
-    
-    .mbtn {
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:749px) {
+    a#navicon {
+        display: block;
+        clear: both;
+        float: left;
+    }
+    nav ul {
+        display: none;
+    }
+    a#navicon:hover+ul,
+    nav ul:hover {
+        display: block;
+    }
+    nav a {
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+    #menu {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 50px;
+        height: 44px;
         background-color: #fd750dff;
-        padding: 1em 1.5em;
-        border-radius: 1rem;
-        text-decoration: none;
-        color: white;
-        position: fixed;
-        left: 20px;
-        top: 50px;
     }
-    /* Responsive
----------------------- */
-    
-    @media screen and (min-width:750px) {
-        header,
-        footer,
-        .navbar {
-            text-align: center;
-        }
-        a#navicon {
-            display: none;
-        }
-        .project-item img {
-            float: left;
-            margin-right: 20px;
-        }
-        .job-item {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            column-gap: 20px;
-        }
-        .contact-list {
-            display: flex;
-            justify-content: center;
-        }
+    h1 {
+        font-size: 70px;
+        line-height: .9;
+        margin-bottom: 20px;
     }
-    
-    @media screen and (max-width:749px) {
-        a#navicon {
-            display: block;
-            clear: both;
-            float: left;
-        }
-        nav ul {
-            display: none;
-        }
-        a#navicon:hover+ul,
-        nav ul:hover {
-            display: block;
-        }
-        nav a {
-            font-size: 0.9em;
-            line-height: 1.5em;
-        }
-        #menu {
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            width: 50px;
-            height: 44px;
-            background-color: #fd750dff;
-        }
-        h1 {
-            font-size: 70px;
-            line-height: .9;
-            margin-bottom: 20px;
-        }
-        h2 {
-            line-height: 1;
-        }
-        .contact-list a {
-            padding: 5px;
-        }
-        .navbar a {
-            padding: 5px;
-        }
+    h2 {
+        line-height: 1;
     }
+    .contact-list a {
+        padding: 5px;
+    }
+    .navbar a {
+        padding: 5px;
+    }
+}
